@@ -1,19 +1,24 @@
 ---
 // Component imports and setup JavaScript go here!
+import BaseLayout from '../layouts/BaseLayout.astro'
+const title = "Testing title from Fences"
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>Welcome to Astro</title>
-		<style>
-			/* scoped CSS styles go here: */
-			/* h1 { ... } */
-		</style>
-	</head>
+<style lang="scss">
+div{
+	h2{
+		color:blue;
+	}
+}
+</style>
 
-	<body>
-		<h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
-	</body>
-</html>
+<BaseLayout title={title}>
+ <div>
+	<h2>Welcome to <a href="https://astro.build/">Astro</a></h2>
+	<p>Hello this is a p</p>
+ </div>
+ <section>
+	<h2>Heading 2</h2>
+	<a href="/contact">Contact</a>
+ </section>
+</BaseLayout>

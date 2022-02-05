@@ -9,9 +9,17 @@ I decided in some downtime on most weekends that I would like to learn something
 
 Layouts, Astro Components, Styles, & Pages
 
-On this day, I want to learn the basics such as how to create layouts, comonents, pages and passing props around through each of them.
+On this day, I want to learn the basics such as how to create layouts, components, pages and passing props around through each of them.
 
-Lesson learned (TBU)
+Note (mostly lesson learned):
+
+- New stuff -> `<slot />` basically it will allow us to insert exterior code to where we tell it to go.
+  More info here (https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot)
+- Set up base layouts for pages.
+- Create basic components like the base html head for dynamic page title
+- How to pass props
+- created new pages
+- how to linked between pages
 
 ## 🚀 Default Astro stuff --> Project Structure
 
@@ -42,7 +50,3 @@ All commands are run from the root of the project, from a terminal:
 | `npm run dev`     | Starts local dev server at `localhost:3000`  |
 | `npm run build`   | Build your production site to `./dist/`      |
 | `npm run preview` | Preview your build locally, before deploying |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://github.com/withastro/astro) or jump into our [Discord server](https://astro.build/chat).
