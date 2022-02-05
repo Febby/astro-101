@@ -1,6 +1,6 @@
 # Astro 101
 
-**Learning Astro **
+## Learning Astro 
 
 Why?
 I decided in some downtime on most weekends that I would like to learn something new so today I decided to learn about Astro, the latest and "greatest static site Javascript framework" (not my claim :D) which piqued my interest, let see how it goes.
