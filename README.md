@@ -1,14 +1,19 @@
-# Astro Starter Kit: Minimal
+# Astro 101
 
-```
-npm init astro -- --template minimal
-```
+**Learning Astro **
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
+Why?
+I decided in some downtime on most weekends that I would like to learn something new so today I decided to learn about Astro, the latest and "greatest static site Javascript framework" (not my claim :D) which piqued my interest, let see how it goes.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Day 1
 
-## 🚀 Project Structure
+Layouts, Astro Components, Styles, & Pages
+
+On this day, I want to learn the basics such as how to create layouts, comonents, pages and passing props around through each of them.
+
+Lesson learned (TBU)
+
+## 🚀 Default Astro stuff --> Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
@@ -32,7 +37,7 @@ Any static assets, like images, can be placed in the `public/` directory.
 All commands are run from the root of the project, from a terminal:
 
 | Command           | Action                                       |
-|:----------------  |:-------------------------------------------- |
+| :---------------- | :------------------------------------------- |
 | `npm install`     | Installs dependencies                        |
 | `npm run dev`     | Starts local dev server at `localhost:3000`  |
 | `npm run build`   | Build your production site to `./dist/`      |
